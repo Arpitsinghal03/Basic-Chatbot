@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="View ARPIT's Portfolio Website">
+    <meta property="og:title" content="| ARPIT SINGHAL |" />
+    <meta property="og:description"
+        content="Hello there 👋🏻,My name is Arpit Singhal.I am a Computer Engineering Student at Abes Institute Of Technology 👨🏻‍💻📚 
+        I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.
+        Send 'help' to know more about me." />
+    <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="1440432930" />
+
+    <title>| ARPIT SINGHAL SIMPLE CHATBOT |</title>
+
+</head>
+
+<body onload="startFunction()">
+
+
+    <nav>
+
+        <div class="navbar">
+            <div class="personalInfo">
+                <label id="name">Arpit Singhal</label>
+                <label id="lastseen">last seen today at College</label>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="scrollable" id="myScrollable">
+
+        <div id="chatting" class="chatting">
+            <ul id="listUL">
+            </ul>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="sendBar">
+            <input id="inputMSG" onkeypress="isEnter(event)" type="text" placeholder="Type a message" autofocus>
+            <svg onclick="sendMsg()" viewBox="0 0 24 24" width="24" height="24" class="">
+                
+            </svg>
+        </div>
+    </footer>
+
+</body>
+
+</html>
